@@ -2,85 +2,120 @@
 
 # 👻 Ghost DNS — APEX
 
-**Modern Windows DNS manager built with Python & CustomTkinter**  
-**Nowoczesny menedżer DNS dla Windows napisany w Pythonie i CustomTkinter**
+### Fast Windows DNS Changer, Tester & Profile Manager
+
+**Python • CustomTkinter • Windows 10/11 • DNS Profiles • Latency Testing**
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows)
-![UI](https://img.shields.io/badge/UI-CustomTkinter-8A2BE2)
-![Version](https://img.shields.io/badge/APEX-v6.0-ff4fa3)
-![Author](https://img.shields.io/badge/Author-Swir-black)
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white)
+![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-8A2BE2)
+![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20PL-ff4fa3)
+![Version](https://img.shields.io/badge/APEX-v6.0-111111)
 
 </div>
 
 ---
 
-## 🇬🇧 English
+## 🚀 About
 
-Ghost DNS is a Windows desktop application for quickly inspecting, testing and changing DNS configuration. It provides ready-made DNS profiles, latency testing, active-adapter detection and a local JSON database for custom servers.
+**Ghost DNS — APEX** is a modern Windows desktop utility for checking, testing and changing DNS configuration from a graphical interface.
 
-It is designed for users looking for a **Windows DNS changer**, **DNS manager GUI**, **Python DNS tool**, **DNS latency tester**, or a graphical utility for switching between public and custom DNS servers.
+It combines ready-made DNS profiles, active-adapter detection, latency testing and custom local DNS entries in one compact CustomTkinter application. The repository includes both **English** and **Polish** versions.
 
-### ✨ Features
-- one-click DNS profile switching
-- profiles for performance, privacy, security and filtering
-- live DNS ping/latency tester
-- active network-adapter detection
-- display of currently configured DNS addresses
-- custom DNS profiles stored locally in JSON
-- restore automatic DHCP DNS settings
-- modern dark CustomTkinter interface
-- Polish and English application variants
+It is designed for users looking for a **Windows DNS changer**, **DNS manager GUI**, **DNS latency tester**, **Python network utility**, **DNS profile manager** or a simple way to switch between public and custom DNS servers.
 
-### 🛠 Requirements
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| ⚡ One-click switching | Apply DNS profiles quickly |
+| 📡 Adapter detection | Detect the active Windows network adapter |
+| 🧪 DNS latency test | Compare DNS response / ping latency |
+| 🧭 Current DNS view | Display currently configured DNS addresses |
+| 🗂️ Built-in profiles | Ready-made performance, privacy and filtering choices |
+| ➕ Custom DNS | Store your own DNS server profiles locally |
+| ♻️ DHCP restore | Return to automatic DNS configuration |
+| 🌍 Two languages | Separate English and Polish application files |
+| 🌙 Modern interface | Dark CustomTkinter desktop UI |
+
+---
+
+## 🌍 Language Versions
+
+| Language | File |
+|---|---|
+| 🇬🇧 English | `mainEnglish.py` |
+| 🇵🇱 Polski | `main.py` |
+
+---
+
+## 📋 Requirements
+
 - Windows 10 / 11
 - Python 3.8+
-- administrator privileges when changing system DNS settings
+- Administrator privileges when changing system DNS settings
+- CustomTkinter
 
 ```bash
 pip install customtkinter
-python mainEnglish.py
 ```
 
 ---
 
-## 🇵🇱 Polski
-
-Ghost DNS to aplikacja desktopowa dla Windows służąca do szybkiego sprawdzania, testowania i zmiany konfiguracji DNS. Program oferuje gotowe profile serwerów, pomiar opóźnień, wykrywanie aktywnej karty sieciowej oraz lokalną bazę JSON dla własnych wpisów.
-
-Projekt może zainteresować osoby szukające **zmieniacza DNS dla Windows**, **graficznego menedżera DNS**, narzędzia DNS w Pythonie, testera opóźnień DNS albo aplikacji do przełączania między publicznymi i własnymi serwerami DNS.
-
-### ✨ Funkcje
-- zmiana DNS jednym kliknięciem
-- profile wydajności, prywatności, bezpieczeństwa i filtrowania
-- tester ping/opóźnienia DNS
-- automatyczne wykrywanie aktywnej karty sieciowej
-- podgląd aktualnych adresów DNS
-- własne profile DNS zapisywane lokalnie w JSON
-- powrót do automatycznej konfiguracji DHCP
-- nowoczesny ciemny interfejs CustomTkinter
-- polska i angielska wersja programu
-
-### 🛠 Wymagania
-- Windows 10 / 11
-- Python 3.8+
-- uprawnienia administratora do zmiany ustawień DNS
+## 📦 Installation
 
 ```bash
+git clone https://github.com/Swir/Ghos-DNS.git
+cd Ghos-DNS
 pip install customtkinter
+```
+
+English:
+
+```bash
+python mainEnglish.py
+```
+
+Polish:
+
+```bash
 python main.py
 ```
 
 ---
 
-## 🔎 Discoverability / Keywords
+## 🔧 Typical Use Cases
 
-`dns changer` · `windows dns` · `dns manager` · `python dns` · `customtkinter` · `dns latency` · `dns tester` · `network utility` · `dhcp dns` · `windows network tool`
+- quickly switching between DNS providers
+- comparing DNS latency
+- restoring automatic DHCP DNS settings
+- testing custom DNS servers
+- managing DNS profiles on Windows 10/11
 
-## ⚠️ Note / Uwaga
-Changing DNS affects system network configuration. Record your original settings or use the automatic/DHCP restore option if required.
+---
 
-Zmiana DNS wpływa na konfigurację sieci systemu. W razie potrzeby skorzystaj z funkcji przywracania ustawień automatycznych/DHCP.
+## 🔍 Discoverability
 
-## 👤 Author / Autor
-Developed by **Swir**.
+`windows dns changer` • `dns changer gui` • `dns manager windows 11` • `dns latency tester` • `python dns tool` • `customtkinter network tool` • `dns profile manager` • `change dns windows` • `dns benchmark gui` • `dhcp dns restore`
+
+---
+
+## ⚠️ Important
+
+Changing DNS modifies your Windows network configuration. Administrator privileges may be required. If networking stops working as expected, use the automatic/DHCP restore option or restore your previous DNS settings.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Swir** — [@Swir](https://github.com/Swir)
+
+<div align="center">
+
+### 👻 Take control of DNS without digging through Windows network panels
+
+⭐ **Star the repository if Ghost DNS is useful to you!**
+
+</div>
