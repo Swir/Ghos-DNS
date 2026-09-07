@@ -19,6 +19,8 @@
 
 Ghost DNS is a Windows desktop application for quickly inspecting, testing and changing DNS configuration. It provides ready-made DNS profiles, latency testing, active-adapter detection and a local JSON database for custom servers.
 
+It is designed for users looking for a **Windows DNS changer**, **DNS manager GUI**, **Python DNS tool**, **DNS latency tester**, or a graphical utility for switching between public and custom DNS servers.
+
 ### ✨ Features
 - one-click DNS profile switching
 - profiles for performance, privacy, security and filtering
@@ -46,6 +48,8 @@ python mainEnglish.py
 
 Ghost DNS to aplikacja desktopowa dla Windows służąca do szybkiego sprawdzania, testowania i zmiany konfiguracji DNS. Program oferuje gotowe profile serwerów, pomiar opóźnień, wykrywanie aktywnej karty sieciowej oraz lokalną bazę JSON dla własnych wpisów.
 
+Projekt może zainteresować osoby szukające **zmieniacza DNS dla Windows**, **graficznego menedżera DNS**, narzędzia DNS w Pythonie, testera opóźnień DNS albo aplikacji do przełączania między publicznymi i własnymi serwerami DNS.
+
 ### ✨ Funkcje
 - zmiana DNS jednym kliknięciem
 - profile wydajności, prywatności, bezpieczeństwa i filtrowania
@@ -68,6 +72,10 @@ python main.py
 ```
 
 ---
+
+## 🔎 Discoverability / Keywords
+
+`dns changer` · `windows dns` · `dns manager` · `python dns` · `customtkinter` · `dns latency` · `dns tester` · `network utility` · `dhcp dns` · `windows network tool`
 
 ## ⚠️ Note / Uwaga
 Changing DNS affects system network configuration. Record your original settings or use the automatic/DHCP restore option if required.
